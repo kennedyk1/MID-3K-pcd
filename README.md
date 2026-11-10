@@ -8,9 +8,9 @@ This repository contains the raw LiDAR point clouds used to generate the depth a
 
 | Path | Format | Count | Description |
 | --- | --- | ---: | --- |
-| `pcd/` | Binary little-endian PLY | 3,089 | 3,083 dataset-associated point clouds plus 6 unpaired scans |
+| `pcd/` | Binary little-endian PLY | 3,083 | Point clouds associated with the MID-3K modalities |
 
-The dataset association uses **3,083** point clouds. The repository additionally retains six raw scans with no matching RGB dataset stem. Approximate data size: **6.5 GB**.
+All point-cloud stems match the 3,083 associated RGB, Thermal, Depth, and Intensity-label stems. Approximate data size: **6.5 GB**.
 
 Each PLY vertex stores four `float` fields:
 
